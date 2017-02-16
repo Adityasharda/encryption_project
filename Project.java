@@ -1,3 +1,10 @@
+/* This is GUI of the project.
+There are three section in this GUI.
+In first section, it will take an image to encrypt.
+In second section, it will show the encrypted image.
+In third section, it will show the decrypted image.
+Below this we have two boxes to analyse encryption and decryption
+*/
 package com.info.image;
 
 import java.awt.EventQueue;
@@ -49,7 +56,7 @@ public class Project {
 		frame.setBounds(100, 100, 1024	,1024);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-		
+		/* this  butten for browse the image*/
 		JButton btnNewButton = new JButton("Browse");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
